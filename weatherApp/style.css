@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(88, 201, 253);
+    text-align: center;
+}
+
+.card {
+    margin: 10px;
+    width: 600px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    margin: auto;
+}
+
+.buscar {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.buscar:focus {
+    border: 3px solid #555;
+}
