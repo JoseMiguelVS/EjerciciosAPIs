@@ -15,7 +15,7 @@ function createCard(data) {
     <p> ${data.score} </p>
     <p class="titulos">Genero(s)</p>
     <p>${data.genres.map(g => g.name).join(', ')}</p>
-    </div>x
+    </div>
     `;
     card.innerHTML = html;
     card.className = 'card';
