@@ -74,3 +74,13 @@ h1 {
 .opciones:hover {
     background-color: rgb(148, 145, 145);
 }
+
+a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007BFF;
+    border-radius: 5px;
+}
